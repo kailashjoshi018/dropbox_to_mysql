@@ -1,0 +1,11 @@
+INFO:root:Reading configurations from : /mnt/d/personal/programming/dropdox_to_mysql.config
+INFO:root:Downloading data from dropbox location : /touchnote/dropbox.csv to local location : /mnt/d/dropbox.csv
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 86
+INFO:root:Download completed
+INFO:root:Creating engine for MySQL database
+INFO:root:Loading data into marketing_spend_stage table
+INFO:root:Loading completed, merge is about to start.
+INFO:root:Data load and merge to final table completed. Removing files now.
+INFO:root:Script completed.
